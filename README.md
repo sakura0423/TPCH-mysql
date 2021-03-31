@@ -1,6 +1,5 @@
 # TPCH-mysql
 
-# TPCH-mysql
 
 TPC-H是业界常用的一套基准，由TPC委员会制定发布，用于评测数据库的分析型查询能力。TPC-H查询包含8张数据表、22条复杂的SQL查询，大多数查询包含若干表Join、子查询和Group by聚合等。
 
