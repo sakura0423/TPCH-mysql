@@ -246,5 +246,5 @@ TPC-H是业界常用的一套基准，由TPC委员会制定发布，用于评测
 
    
 ## 测试
+查看query的[含义](https://github.com/maobuji/tpch-mysql/blob/master/doc/QuerySQLExplain.MD)
 
-查看query的[含义](
