@@ -14,7 +14,7 @@ TPC-H是业界常用的一套基准，由TPC委员会制定发布，用于评测
 
 ## 安装TPC-H
 
-1. 需要去[官网](http://tpc.org/tpc_documents_current_versions/download_programs/tools-download-request5.asp?spm=a2c4g.11186623.2.11.79df2d24vfIXkS&bm_type=TPC-H&bm_vers=2.18.0&mode=CURRENT-ONLY)安装
+1. 去[官网](http://tpc.org/tpc_documents_current_versions/download_programs/tools-download-request5.asp?spm=a2c4g.11186623.2.11.79df2d24vfIXkS&bm_type=TPC-H&bm_vers=2.18.0&mode=CURRENT-ONLY)下载
 
 2. 进入目录后，进入dbgen目录下
 
@@ -27,8 +27,6 @@ TPC-H是业界常用的一套基准，由TPC委员会制定发布，用于评测
    ```shell
    # cp makefile.suite makefile
    ```
-
-   
 
 4. 修改makefile中的CC、DATABASE、MACHINE、WORKLOAD参数的定义。
 
@@ -95,10 +93,6 @@ TPC-H是业界常用的一套基准，由TPC委员会制定发布，用于评测
        ./qgen -d $i -s 100 > db"$i".sql
      done
      ```
-
-
-
-
 
 
 
@@ -246,5 +240,5 @@ TPC-H是业界常用的一套基准，由TPC委员会制定发布，用于评测
 
    
 ## 测试
-查看query的[含义](https://github.com/maobuji/tpch-mysql/blob/master/doc/QuerySQLExplain.MD)
+查看query的[含义](./query/README)
 
